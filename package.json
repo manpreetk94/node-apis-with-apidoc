@@ -1,0 +1,29 @@
+{
+  "name": "node-api-documentation",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "apidoc": {
+    "name": "Node API",
+    "version": "0.1.0",
+    "description": "Node API",
+    "title": "API Docs for Node API",
+    "url": "localhost/node-api-documentation/doc/"
+  },
+  "dependencies": {
+    "apidoc": "^0.25.0",
+    "bookshelf": "^1.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "i": "^0.3.7",
+    "knex": "^1.0.4",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "npm": "^8.5.4",
+    "twig": "~0.10.3"
+  }
+}
